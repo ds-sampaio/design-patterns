@@ -1,0 +1,21 @@
+unit model.entidade.itensVenda;
+
+interface
+
+type
+  TItensVenda = class
+    private
+    FcodItem: integer;
+    Fqtd: Currency;
+    Fsequencia: integer;
+    Fvalor: currency;
+    public
+      property codItem: integer read FcodItem write FcodItem;
+      property qtd: Currency read Fqtd write Fqtd;
+      property sequencia: integer read Fsequencia write Fsequencia;
+      property valor: currency read Fvalor write Fvalor;
+  end;
+
+implementation
+
+end.

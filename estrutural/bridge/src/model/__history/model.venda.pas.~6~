@@ -1,0 +1,49 @@
+unit model.venda;
+
+interface
+
+uses
+  model.interfaces, model.entidade.venda,
+  System.Generics.Collections;
+
+type
+  TModelVenda = class(TInterfacedObject, iSource<TVenda>)
+    private
+      FList : TList<TVenda>;
+    public
+      constructor Create(aList : TList<TVenda>);
+      destructor Destroy; override;
+      class function New(aList : TList<TVenda>) : iSource<TVenda>;
+      function Exportar(aValue : iExport<TVenda>) : iSource<TVenda>;
+  end;
+
+implementation
+
+{ TModelVenda }
+
+constructor TModelVenda.Create(aList : TList<TVenda>);
+begin
+  FList := aList;
+end;
+
+destructor TModelVenda.Destroy;
+begin
+  FList.Free;
+  inherited;
+end;
+
+function TModelVenda.Exportar(aValue: iExport<TVenda>): iSource<TVenda>;
+var
+  I: Integer;
+begin
+  Result := Self;
+  for I := 0 to Pred(FList.Count) do
+      aValue.GerarRegistros(FList.Items[I]);
+end;
+
+class function TModelVenda.New(aList : TList<TVenda>): iSource<TVenda>;
+begin
+  Result := self.Create(aList);
+end;
+
+end.

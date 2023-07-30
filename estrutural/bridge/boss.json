@@ -1,0 +1,11 @@
+{
+	"name": "Bridge",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "./src",
+	"projects": [],
+	"dependencies": {
+		"https://github.com/gabrielbaltazar/gbjson": "^1.0.11"
+	}
+}

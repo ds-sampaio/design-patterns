@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/05/21 12:16:55.000.327,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/30 11:32:22.873,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/30 11:32:33.354,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/07/30 11:34:16.219,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2023/07/30 11:37:39.957,D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Bridge\src\model\model.interfaces.pas=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2023/07/30 11:38:10.724,D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Bridge\src\model\entidade\model.entidade.venda.pas=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/07/30 11:38:17.613,D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Bridge\src\view\Principal.pas=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/30 11:38:17.613,D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Bridge\src\view\Principal.dfm=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/07/30 11:38:24.561,D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Bridge\src\Project1.dproj=C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/07/30 11:41:05.328,=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Bridge\src\Unit1.pas</Transaction>
+    <Transaction>2023/07/30 11:41:20.588,D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Bridge\src\model\model.venda.pas=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Bridge\src\Unit1.pas</Transaction>
+    <Transaction>2023/07/30 12:06:35.796,=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Bridge\src\Unit1.pas</Transaction>
+    <Transaction>2023/07/30 12:06:56.774,D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Bridge\src\model\SPED\model.SPEDC100.pas=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Bridge\src\Unit1.pas</Transaction>
+    <Transaction>2023/07/30 12:17:11.165,=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Bridge\src\Unit1.pas</Transaction>
+    <Transaction>2023/07/30 12:17:26.577,=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Bridge\src\Unit2.pas</Transaction>
+    <Transaction>2023/07/30 12:17:45.965,D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Bridge\src\model\SPED\model.SPEDC170.pas=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Bridge\src\Unit2.pas</Transaction>
+    <Transaction>2023/07/30 12:19:25.950,=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Bridge\src\Unit2.pas</Transaction>
+    <Transaction>2023/07/30 12:20:56.328,D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Bridge\src\model\entidade\model.entidade.itensVenda.pas=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Bridge\src\Unit2.pas</Transaction>
+    <Transaction>2023/07/30 12:37:52.353,=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Bridge\src\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

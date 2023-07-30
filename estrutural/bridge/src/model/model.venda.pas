@@ -1,0 +1,52 @@
+unit model.venda;
+
+interface
+
+uses
+  model.interfaces, model.entidade.venda,
+  System.Generics.Collections,System.JSON,GBJSON.Helper, GBJSON.Interfaces,
+  Rest.Json;
+
+type
+  TModelVenda = class(TInterfacedObject, iSource<TVenda>)
+    private
+      FList : TList<TVenda>;
+    public
+      constructor Create(aJson : TJSONArray);
+      destructor Destroy; override;
+      class function New(aJson : TJSONArray) : iSource<TVenda>;
+      function Exportar(aValue : iExport<TVenda>) : iSource<TVenda>;
+  end;
+
+implementation
+
+{ TModelVenda }
+
+constructor TModelVenda.Create(aJson : TJSONArray);
+begin
+  //FList :=  TList<TVenda>.Create;
+ // FList := TGBJSONDefault.Serializer<TVenda>.JsonStringToList(aJson.ToString);
+ FList := TGBJSONDefault.Serializer<TVenda>.JsonArrayToList(aJson);
+end;
+
+destructor TModelVenda.Destroy;
+begin
+  FList.Free;
+  inherited;
+end;
+
+function TModelVenda.Exportar(aValue: iExport<TVenda>): iSource<TVenda>;
+var
+  I: Integer;
+begin
+  Result := Self;
+  for I := 0 to Pred(FList.Count) do
+      aValue.GerarRegistros(FList.Items[I]);
+end;
+
+class function TModelVenda.New(aJson : TJSONArray): iSource<TVenda>;
+begin
+  Result := self.Create(aJson);
+end;
+
+end.
