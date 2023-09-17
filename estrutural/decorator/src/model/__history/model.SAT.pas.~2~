@@ -1,0 +1,36 @@
+unit model.SAT;
+
+interface
+
+uses
+  model.venda.interfaces;
+
+type
+  TModelSAT = class(TInterfacedObject, iVenda)
+    private
+    public
+      constructor Create;
+      class function New: iVenda;
+      function venda : iVenda;
+  end;
+
+implementation
+
+{ TModelSAT }
+
+constructor TModelSAT.Create;
+begin
+
+end;
+
+class function TModelSAT.New: iVenda;
+begin
+
+end;
+
+function TModelSAT.venda: iVenda;
+begin
+
+end;
+
+end.

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/05/21 12:16:55.000.327,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/09/17 10:30:55.000.076,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/09/17 10:31:54.000.719,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Decorator\src\view\Principal.dfm</Transaction>
+    <Transaction>2023/09/17 10:31:54.000.719,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Decorator\src\view\Principal.pas</Transaction>
+    <Transaction>2023/09/17 10:32:03.000.337,C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Decorator\src\Decorator.dproj</Transaction>
+    <Transaction>2023/09/17 10:32:07.000.602,=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Decorator\src\Unit1.pas</Transaction>
+    <Transaction>2023/09/17 10:32:18.000.384,D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Decorator\src\Unit1.pas=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Decorator\src\model\model.NFC.pas</Transaction>
+    <Transaction>2023/09/17 10:32:22.000.196,=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Decorator\src\Unit1.pas</Transaction>
+    <Transaction>2023/09/17 10:32:30.000.359,D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Decorator\src\Unit1.pas=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Decorator\src\model\model.SAT.pas</Transaction>
+    <Transaction>2023/09/17 10:33:30.000.608,=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Decorator\src\Unit1.pas</Transaction>
+    <Transaction>2023/09/17 10:34:10.000.313,D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Decorator\src\Unit1.pas=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Decorator\src\model\model.venda.interfaces.pas</Transaction>
+    <Transaction>2023/09/17 12:38:46.277,=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Decorator\src\Unit1.pas</Transaction>
+    <Transaction>2023/09/17 12:40:02.959,D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Decorator\src\model\DTO\model.Dto.ModeloVendas.pas=D:\projetos-delphi\Estudo\Padro de Projeto\Estrutural\Decorator\src\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

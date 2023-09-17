@@ -1,0 +1,38 @@
+unit model.NFC;
+
+interface
+
+uses
+  model.venda.interfaces;
+
+type
+  TModelNFC = class(TInterfacedObject, iVenda)
+    private
+      FDecorator : iVenda;
+    public
+      constructor Create(aDecorator : iVenda);
+      class function New(aDecorator : iVenda): iVenda;
+      function venda : iVenda;
+  end;
+
+implementation
+
+{ TModelNFC }
+
+constructor TModelNFC.Create(aDecorator : iVenda);
+begin
+  FDecorator := aDecorator;
+end;
+
+class function TModelNFC.New(aDecorator : iVenda): iVenda;
+begin
+  Result := Self.Create(aDecorator);
+end;
+
+function TModelNFC.venda: iVenda;
+begin
+  Result := Self;
+end;
+
+end.
+

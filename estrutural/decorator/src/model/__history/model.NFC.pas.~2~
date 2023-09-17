@@ -1,0 +1,37 @@
+unit model.NFC;
+
+interface
+
+uses
+  model.venda.interfaces;
+
+type
+  TModelNFC = class(TInterfacedObject, iVenda)
+    private
+    public
+      constructor Create;
+      class function New: iVenda;
+      function venda : iVenda;
+  end;
+
+implementation
+
+{ TModelNFC }
+
+constructor TModelNFC.Create;
+begin
+
+end;
+
+class function TModelNFC.New: iVenda;
+begin
+
+end;
+
+function TModelNFC.venda: iVenda;
+begin
+
+end;
+
+end.
+

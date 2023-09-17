@@ -1,0 +1,16 @@
+unit model.venda.interfaces;
+
+interface
+
+uses
+  model.Dto.ModeloVendas;
+
+type
+  iVenda = interface
+    ['{2C0CA3D7-903D-4FFE-8577-D9D499D4D33B}']
+    function venda : String;
+  end;
+
+implementation
+
+end.

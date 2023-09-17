@@ -1,0 +1,37 @@
+unit model.SAT;
+
+interface
+
+uses
+  model.venda.interfaces;
+
+type
+  TModelSAT = class(TInterfacedObject, iVenda)
+    private
+      FDecorator : iVenda;
+    public
+      constructor Create(aDecorator : iVenda);
+      class function New(aDecorator : iVenda): iVenda;
+      function venda : iVenda;
+  end;
+
+implementation
+
+{ TModelSAT }
+
+constructor TModelSAT.Create(aDecorator : iVenda);
+begin
+  FDecorator := aDecorator;
+end;
+
+class function TModelSAT.New(aDecorator : iVenda): iVenda;
+begin
+  Result := Self.Create(aDecorator);
+end;
+
+function TModelSAT.venda: iVenda;
+begin
+  Result := Self;
+end;
+
+end.
